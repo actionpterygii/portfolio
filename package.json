@@ -9,7 +9,8 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
     "@babel/core": "^7.3.4",
     "@babel/preset-env": "^7.3.4",
     "babel-core": "^6.26.3",
@@ -21,10 +22,10 @@
     "gulp-htmlmin": "^5.0.1",
     "gulp-imagemin": "^5.0.3",
     "gulp-sass": "^4.0.2",
+    "gulp-typescript": "^5.0.1",
     "gulp-uglify": "^3.0.2",
     "imagemin-mozjpeg": "^8.0.0",
     "imagemin-pngquant": "^7.0.0",
     "smoothscroll-polyfill": "^0.4.3"
-  },
-  "dependencies": {}
+  }
 }
