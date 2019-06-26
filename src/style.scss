@@ -85,6 +85,7 @@ main {
     animation-direction: normal;
     animation-fill-mode: both;
     animation-play-state: running;
+    -webkit-overflow-scrolling: touch;
 }
 
 @keyframes act {
