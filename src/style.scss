@@ -77,23 +77,22 @@ main {
 // }
 
 #act rect {
+    fill: #FFFF66;
     animation-name: act;
-    animation-duration: 0.4s;
+    animation-duration: 0.5s;
     animation-timing-function: cubic-bezier(1.000, 0.875, 0.200, 0.955);
     animation-delay: 0s;
     animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-fill-mode: both;
+    animation-direction: alternate;
+    animation-fill-mode: none;
     animation-play-state: running;
 }
 
 @keyframes act {
-    from {
-        fill: none;
+    0% {
         width: 0;
     }
-    to {
-        fill: #FFFF66;
+    100% {
         width: 130;
     }
 }
