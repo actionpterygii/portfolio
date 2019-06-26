@@ -82,17 +82,17 @@ main {
     animation-timing-function: ease-out;
     animation-delay: 1.2s;
     animation-iteration-count: 1;
-    animation-direction: alternate;
+    animation-direction: normal;
     animation-fill-mode: forwards;
     animation-play-state: running;
 }
 
 @keyframes act {
-    0% {
+    from {
         fill: none;
         width: 0;
     }
-    100% {
+    to {
         fill: #FFFF66;
         width: 130;
     }
