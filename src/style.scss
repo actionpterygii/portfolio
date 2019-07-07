@@ -45,11 +45,11 @@ main {
 .move {
     fill: #3CC;
     animation-duration: 0.1s, 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: 1;
-    animation-direction: normal;
-    animation-play-state: running;
-    transform-origin: center;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: 1, 1;
+    animation-direction: normal, normal;
+    animation-play-state: running, running;
+    transform-origin: center, center;
 
     &-out {
         stroke: #3CC;
