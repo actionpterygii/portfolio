@@ -80,7 +80,7 @@ main {
         fill: #333;
     }
 
-    80% {
+    75% {
         stroke-dashoffset: 2000;
         fill: #3CC;
     }
@@ -125,7 +125,7 @@ main {
 }
 
 #act rect {
-    fill: #FFFF66;
+    fill: #FF6;
     animation-name: act;
     animation-duration: 0.5s;
     animation-timing-function: cubic-bezier(1.000, 0.875, 0.200, 0.955);
