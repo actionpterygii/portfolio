@@ -1,0 +1,55 @@
+/* noname002 */
+
+#noname002 {
+    width: 100px;
+    margin: 50px auto;
+}
+
+#emoji_btn {
+    appearance: none;
+    -webkit-appearance: none;
+    display: inline-block;
+    width: 25px;
+    height: 9px;
+    border: 0px solid rgba(0,0,0,0.0);
+    border-radius: 50px;
+    background-color: #dddddd;
+    transition: background-color .4s ease;
+    cursor: pointer;
+}
+
+#emoji_btn:checked {
+    background-color: #bbbbbb;
+}
+
+#emoji_btn + label {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: -35px;
+    width: 15px;
+    height: 15px;
+    border: 0px solid rgba(0,0,0,0.0);
+    border-radius: 50%;
+    background-color: #eeeeee;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+    transition: left .4s ease, background-color .4s ease;
+    cursor: pointer;
+}
+
+#emoji_btn:checked + label {
+    position: relative;
+    display: inline-block;
+    top: 0px;
+    left: -20px;
+    width: 15px;
+    height: 15px;
+    border: 0px solid rgba(0,0,0,0.0);
+    border-radius: 50%;
+    background-color: #faff00;
+    box-shadow: 0 0 4px rgba(0,0,0,0.4);
+}
+
+#emoji_btn:focus {
+    outline: none;
+}
