@@ -11,7 +11,7 @@
     display: inline-block;
     width: 25px;
     height: 9px;
-    border: 0px solid rgba(0,0,0,0.0);
+    border: 0px solid rgba(0, 0, 0, 0.0);
     border-radius: 50px;
     background-color: #dddddd;
     transition: background-color .4s ease;
@@ -22,33 +22,44 @@
     background-color: #bbbbbb;
 }
 
-#emoji_btn + label {
+#emoji_btn+label {
     position: relative;
     display: inline-block;
-    top: 0px;
+    top: -1px;
     left: -35px;
     width: 15px;
     height: 15px;
-    border: 0px solid rgba(0,0,0,0.0);
-    border-radius: 50%;
-    background-color: #eeeeee;
-    box-shadow: 0 0 4px rgba(0,0,0,0.4);
-    transition: left .4s ease, background-color .4s ease;
+    transition: left .5s ease, .5s ease;
     cursor: pointer;
 }
 
-#emoji_btn:checked + label {
+#emoji_btn+label:before {
+    content: '🌚';
+    display: inline;
+}
+
+#emoji_btn+label:after {
+    display: none;
+}
+
+#emoji_btn:checked+label {
     position: relative;
     display: inline-block;
-    top: 0px;
+    top: -1px;
     left: -20px;
     width: 15px;
     height: 15px;
-    border: 0px solid rgba(0,0,0,0.0);
-    border-radius: 50%;
-    background-color: #faff00;
-    box-shadow: 0 0 4px rgba(0,0,0,0.4);
 }
+
+#emoji_btn:checked+label::before {
+    display: none;
+}
+
+#emoji_btn:checked+label::after {
+    content: '🌞';
+    display: inline;
+}
+
 
 #emoji_btn:focus {
     outline: none;
