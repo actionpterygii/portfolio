@@ -9,7 +9,9 @@ internal/modules/cjs/loader.js:584
 
 Error: Cannot find module 'typescript'
 ```
-とかでたので今使ってる`node-modules`フォルダのをそのままコピペでつかっています。
+とかでたので今使ってる`node-modules`フォルダのをそのままコピペでつかっています。  
+これなんかどっかで判明してた気がする
+
 ### SVGをCSSアニメーション
 - `Adobe Illustrator 2019` でSVGを作成してCSSで操作(アニメーション)
 - HTMLに埋め込まれたSVGはCSSアニメーションのノリでいじれる
