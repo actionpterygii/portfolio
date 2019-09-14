@@ -1,5 +1,8 @@
 # いつまでも
 
+## リポジトリ晒し
+[あ](https://actionpterygii.github.io/portfolio/workspace/ripojitori_sarashi/)
+
 ## 雑記
 - いままでの`package.json`もってきて`npm install`した(jsonにあるやつでインストールされる)のに
 ```
