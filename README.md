@@ -13,7 +13,7 @@ Error: Cannot find module 'typescript'
 これなんかどっかで判明してた気がする
 
 ### SVGをCSSアニメーション
-- `Adobe Illustrator 2019` でSVGを作成してCSSで操作(アニメーション)
+- `Adobe Illustrator 2019` でSVGを作成してCSSで操作(アニメーション)ｖ
 - HTMLに埋め込まれたSVGはCSSアニメーションのノリでいじれる
 - Monacoフォントで文字を書いてアウトライン化です
 - [ここ](https://matthewlein.com/tools/ceaser)でCSSアニメーションのためのいい感じを見つけれてとてもいいです。
@@ -29,4 +29,10 @@ Error: Cannot find module 'typescript'
     - ディレイ実行で実行前を0%色なしwidth0、100%色ありwidth130にしてたけどそういうのはよくない
     - width0なら色ついてても見えないんで`animation-fill-mode: both;`で対応いたしました。よろしくお願いいたします。
         - アニメーション実行前は0%,実行後は100%の`@keyframes`になります >both
-    
+
+### リポジトリ晒し
+```
+ＣＳＳ？ＪａｖａＳｃｒｉｐｔ？関係あるかボケ
+ＨＴＭＬがあったらそこはもうインターネットや
+```
+
